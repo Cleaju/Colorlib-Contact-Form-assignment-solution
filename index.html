@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="css,styling web form">
+    <meta name="keywords" content="Colorlib Contact Form styling">
+    <title>Form practise-2</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <main>
+        <form method="POST" action="/sign-up">
+            <h2>Colorlib Contact Form</h2>
+            <p>Contact us for custom quote</p>
+            <label for="Your name"></label>
+            <input type="text" class="form-field" name="Your name" placeholder="Your name">
+            <label for="email"></label>
+            <input type="email" class="form-field" name="Your email" placeholder="Your Email">
+            <label for="Your name"></label>
+           <input type="phone number" class="form-field" name="Your Phone" placeholder="Your Phone number(optional)">
+           <label for="Your Website"></label>
+           <input type="Website" class="form-field" name="Website" placeholder="Your Website(optional)">
+
+            <label for="Message">
+                <span class="required"></span> 
+                <textarea spellcheck="true"  id="message" name="message" placeholder="Type your message here...." tabindex="5" required="required"></textarea> 
+              </label>  
+              <button type="submit">Submit</button>
+              <p class="para2">Designed by <a href=""> Colorlib</a></p>
+
+        </form>
+        
+    </main>
+    
+</body>
+</html>
